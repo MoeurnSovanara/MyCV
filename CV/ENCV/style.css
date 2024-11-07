@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.container{
+    width: 60%;
+    height: 215vh;
+    background-color: white;
+    padding: 20px;
+    border: 2px dashed black;
+}
+.container .container-title{
+    text-align: center; 
+    padding: 10px;
+    margin-bottom: 20px;	
+}
+.container-header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-header .picture{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+.container-header .picture img{
+    width: 100px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.personalData{
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    padding: 0px 63px;
+}
+.personalData .title{
+    background-color: rgb(41, 7, 110);
+    width: 100%;
+    padding: 0px 10px;
+}
+.personalData .title p{
+    font-size: 25px;
+    color: white;
+}
+.personalData .text{
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+/* education */
+.education{
+    width: 100%;
+    height: 200px;
+    padding: 0px 63px;
+}
+.education .title{
+    background-color: rgb(41, 7, 110);
+    width: 100%;
+    padding: 0px 10px;
+}
+.education .title p{
+    font-size: 25px;
+    color: white;
+}
+.education .text{
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+/* training */
+.training{
+    width: 100%;
+    height: 190px;
+    padding: 0px 63px;
+}
+.training .title{
+    background-color: rgb(41, 7, 110);
+    width: 100%; 
+    padding: 0px 10px;
+}
+.training .title p{
+    font-size: 25px;
+    color: white;
+}
+.training .text{
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+/* skills */
+.skill{
+    width: 100%;
+    height: 110px;
+    padding: 0px 63px;
+}
+.skill .title{
+    background-color: rgb(41, 7, 110);
+    width: 100%; 
+    padding: 0px 10px;
+}
+.skill .title p{
+    font-size: 25px;
+    color: white;
+}
+.skill .text{
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+/* language */
+.language{
+    width: 100%;
+    height: 120px;
+    padding: 0px 63px;
+}
+.language .title{
+    background-color: rgb(41, 7, 110);
+    width: 100%; 
+    padding: 0px 10px;
+}
+.language .title p{
+    font-size: 25px;
+    color: white;
+}
+.language .text{
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+/* interest */
+.interest{
+    width: 100%;
+    height: 170px;
+    padding: 0px 63px;
+}
+.interest .title{
+    background-color: rgb(41, 7, 110);
+    width: 100%; 
+    padding: 0px 10px;
+}
+.interest .title p{
+    font-size: 25px;
+    color: white;
+}
+.interest .text{
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+/* reference */
+.reference{
+    width: 100%;
+    height: 150px;
+    padding: 0px 63px;
+}
+.reference .title{
+    background-color: rgb(41, 7, 110);
+    width: 100%; 
+    padding: 0px 10px;
+}
+.reference .title p{
+    font-size: 25px;
+    color: white;
+}
+.reference .text{
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+/* tablet and smaller destop */
+@media (max-width:1024px){
+    .container{
+        width: 75%;
+        height: 205vh;
+    }
+    .container .picture img{
+        width: 100px;
+        height: 130px;
+        margin-bottom: 30px;
+    }
+    .container .container-header{
+        padding: 0px 40px;
+    }
+}
+
+/* large smart phone and small tablet */
+@media(max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 95%;
+        /* height: 210vh; */
+    }
+    .container .picture img{
+        width: 70px;
+        height: 100px;
+        margin-bottom: 35px;
+    }
+    .container .container-header{
+        padding: 0px 20px;
+    }
+    .container .personalData{
+        padding: 0;
+        margin: 0;
+    }
+    .container .education{
+        padding: 0;
+        margin: 0;
+    }
+    .container .training{
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+    .container .personalData{
+        padding: 0;
+        margin: 0;
+    }
+    .container .skill{
+        padding: 0;
+        margin: 0;
+    }
+    .container .language{
+        padding: 0;
+        margin: 0;
+    }
+    .container .interest{
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+    .container .reference{
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+/* small smart phones */
+@media(max-width:480px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 100%;
+        font-size: small;
+    }
+    .container .skill{
+        padding: 0;
+        margin: 0;
+        margin-top: 60px;
+    }
+    .container .reference{
+        margin-top: 40px;
+    }
+
+}
+@media (max-width:320px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+  

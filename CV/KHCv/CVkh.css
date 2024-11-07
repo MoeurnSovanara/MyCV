@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+}
+.container{
+    background-color: white;
+    width: 50%;
+    height:210vh;
+   padding: 10px 40px;
+}
+.container .header{
+    padding:20px 0;
+    /* background-color: blue;  */
+    width: 90%;
+    height: 350px;
+}
+.container .header h1{
+    background-color: rgb(36, 10, 101);
+    color: white;
+    margin-top: 20px;
+    width: 40%;
+    height: 60px;
+    box-shadow: 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.position{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+.position .left{
+    width: 35%;
+}
+.position .center{
+    width: 11%;
+    font-size: 20px;
+}
+.position .right{
+    width: 54%;
+    font-size: 20px;
+}
+/* .study-background */
+.study-background .text{
+    display: flex;
+    width: 100%;
+}
+.study-background .left{
+    width: 35%;
+    font-size: 18px;
+}
+.study-background .center{
+    width: 11%;
+    font-size: 20px;
+}
+.study-background .right{
+    width: 54%;
+    font-size: 18px;
+}
+/* .training */
+.training .text{
+    display: flex;
+    width: 100%;
+}
+.training .left{
+    width: 35%;
+    font-size: 18px;
+}
+.training .center{
+    width: 11%;
+    font-size: 20px;
+}
+.training .right{
+    width: 54%;
+    font-size: 18px;
+}
+/* .skill */
+.skill .text{
+    display: flex;
+    width: 100%;
+}
+.skill .left{
+    width: 35%;
+    font-size: 18px;
+}
+.skill .center{
+    width: 11%;
+    font-size: 20px;
+}
+.skill .right{
+    width: 54%;
+    font-size: 18px;
+}
+/* .volunteer */
+.volunteer .text{
+    display: flex;
+    width: 100%;
+}
+.volunteer .left{
+    width: 35%;
+    font-size: 18px;
+}
+.volunteer .center{
+    width: 11%;
+    font-size: 20px;
+}
+.volunteer .right{
+    width: 54%;
+    font-size: 18px;
+}
+/* .reference */
+.reference .text{
+    display: flex;
+    width: 100%;
+}
+.reference .left{
+    width: 35%;
+    font-size: 18px;
+}
+.reference .center{
+    width: 11%;
+    font-size: 20px;
+}
+.reference .right{
+    width: 54%;
+    font-size: 18px;
+}
